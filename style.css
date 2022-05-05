@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/* top which contain tags of all other pages */
+
+#topbox {
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+#button {
+    position: absolute;
+    font-family: gilroy;
+    font-weight: 480;
+    bottom: 8px;
+    right: 35px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    background-color: orange;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) s;
+}
+
+#button:hover {
+    cursor: pointer;
+    transform: translateX(4px);
+}
+
+#contact {
+    position: absolute;
+    font-family: gilroy;
+    bottom: 8px;
+    font-size: 30px;
+    right: 255px;
+    text-decoration: none;
+    color: black;
+}
+
+#services {
+    position: absolute;
+    font-size: 30px;
+    font-family: gilroy;
+    bottom: 8px;
+    text-decoration: none;
+    color: black;
+    right: 455px;
+}
+
+#about {
+    position: absolute;
+    font-size: 30px;
+    font-family: gilroy;
+    bottom: 8px;
+    text-decoration: none;
+    color: black;
+    right: 655px;
+}
+
+#logo {
+    bottom: 0;
+    position: absolute;
+    font-family: gilroy;
+    left: 100px;
+    color: blue;
+}
+
+#logo h1 {
+    font-weight: 420;
+}
+
+#logo h3 {
+    font-weight: 400;
+}
+
+
+/* second div which contain image */
+
+#second {
+    width: 90%;
+    height: 80%;
+    position: relative;
+    margin-top: 20px;
+    left: 5%;
+    top: 20px;
+}
+
+#photo1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* div contain slogon*/
+
+#third {
+    width: 100%;
+    height: 50vh;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    color: blue;
+}
+
+#tag1 {
+    position: relative;
+    top: 50px;
+}
+
+#tag2 {
+    position: relative;
+    top: 50px;
+}
+
+
+/* div contain mission and vission*/
+
+#forth {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+#imagebox {
+    width: 100%;
+    height: 90%;
+    background-image: url(https://www.opengrowth.com/assets/uploads/images/co_brand_1/users_upload/1/2021/images/Prachi%20Inner%20Blog%20Images%20%20%283%29.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+}
+
+#vission {
+    width: 600px;
+    height: 480px;
+    background-color: rgb(241, 240, 240);
+    opacity: 0.8;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#vissionhead {
+    opacity: 1;
+    top: 20px;
+    position: relative;
+    font-size: 70px;
+}
+
+#vissionbody {
+    position: relative;
+    top: 40px;
+    font-size: 35px;
+}
+
+#mission {
+    width: 600px;
+    height: 480px;
+    background-color: rgb(241, 240, 240);
+    opacity: 0.8;
+    position: absolute;
+    top: 90px;
+    right: 250px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#missionhead {
+    opacity: 1;
+    top: 20px;
+    position: relative;
+    font-size: 70px;
+}
+
+#missionbody {
+    position: relative;
+    top: 40px;
+    font-size: 35px;
+}
+
+
+/* div contain four box with number of things */
+
+#fifth {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.boxes {
+    width: 480px;
+    height: 300px;
+    background-color: rgb(158, 158, 244);
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+
+#box1 {
+    top: 30px;
+    left: 180px;
+}
+
+#box2 {
+    top: 30px;
+    right: 460px;
+}
+
+#box3 {
+    bottom: 40px;
+    left: 370px;
+}
+
+#box4 {
+    bottom: 40px;
+    right: 280px;
+}
+
+#box1 a {
+    font-weight: 450;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+#box2 h1 {
+    font-weight: 450;
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    text-align: center;
+}
+
+#box3 h1 {
+    font-weight: 450;
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    text-align: center;
+}
+
+#box4 h1 {
+    font-weight: 450;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    text-align: center;
+}
+
+
+/* div contain services tag and content */
+
+#sixth {
+    width: 100%;
+    height: 130vh;
+    background-color: blue;
+}
+
+#sixth h1 {
+    font-family: gilroy;
+    font-size: 200px;
+    font-weight: 450;
+    color: #fff;
+    position: relative;
+}
+
+#photo23 {
+    width: 650px;
+    height: 430px;
+    position: absolute;
+    margin-top: 30px;
+    left: 80px;
+}
+
+#contentbox {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(169, 169, 255);
+    position: absolute;
+    right: 210px;
+    margin-top: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+#sixth h2 {
+    font-family: gilroy;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 300;
+    right: 250px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#contentbox2 {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(169, 169, 255);
+    position: absolute;
+    left: 80px;
+    margin-top: 650px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+#sixth h4 {
+    font-family: gilroy;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 300;
+    left: 80px;
+    margin-top: 550px;
+    position: absolute;
+}
+
+#photo34 {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    margin-top: 550px;
+    right: 210px;
+}
+
+
+/* seventh div contain the logo of amazon and companies */
+
+#seventh {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+#bmclogo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 190px;
+    top: 80px;
+}
+
+#micrologo {
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    top: 20px;
+    left: 41%;
+}
+
+#amazonlogo {
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 190px;
+}
+
+#text {
+    position: absolute;
+    width: 1000px;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: gilroy;
+}
+
+#text h2 {
+    font-size: 50px;
+    font-weight: 350;
+}
+
+#text h1 {
+    font-size: 70px;
+    font-weight: 450;
+}
+
+#letsworkbox {
+    position: absolute;
+    background-color: blue;
+    width: 400px;
+    height: 70px;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#letsworkbox h1 {
+    font-weight: 400;
+    position: relative;
+    top: 8px;
+    text-align: center;
+}
+
+
+/* last Box contain links of our social media*/
+
+#lastbox {
+    width: 100%;
+    height: 8vh;
+    border-top: 2px solid #999;
+}
